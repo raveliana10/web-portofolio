@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  /* Navbar with Ribbon */
+  .navbar-ribbon {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 30px;
+    height: auto;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 89vh;
+    background: linear-gradient(rgba(255, 179, 193, 0.5), rgba(255, 192, 203, 0.8)), url('hero-background.jpg') center/cover no-repeat;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Static Image */
+  .static-img {
+    width: 250px;
+  }
+  
+  /* Section Headings */
+  h2 {
+    color: #ff69b4;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+  }
+  
+  /* Button Styles */
+  .btn-pink {
+    background-color: #ffb6c1;
+    border-color: #ffb6c1;
+    color: white;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+  }
+  
+  /* Project Cards */
+  .project-card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Project Images */
+  .project-img {
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
